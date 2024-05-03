@@ -19,6 +19,7 @@ struct Player {
   #[serde(rename = "Kit Number")]
   kit:u8
 }
+    
 // anyhow 特征和Result特征兼容，导入anyhow的result就可以
 //
 pub fn process_csv(input:&str,output: &str) -> Result<()> {
